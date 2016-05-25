@@ -15,6 +15,7 @@
 		3FDC194B1CF58F1C004FA22F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDC19491CF58F1C004FA22F /* LaunchScreen.storyboard */; };
 		3FDC19561CF58F1C004FA22F /* UI_zxrTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC19551CF58F1C004FA22F /* UI_zxrTextTests.m */; };
 		3FDC19611CF58F1C004FA22F /* UI_zxrTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC19601CF58F1C004FA22F /* UI_zxrTextUITests.m */; };
+		3FDC19701CF591F3004FA22F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC196F1CF591F3004FA22F /* FirstViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3FDC195C1CF58F1C004FA22F /* UI_zxrTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UI_zxrTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDC19601CF58F1C004FA22F /* UI_zxrTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI_zxrTextUITests.m; sourceTree = "<group>"; };
 		3FDC19621CF58F1C004FA22F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDC196E1CF591F3004FA22F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3FDC196F1CF591F3004FA22F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				3FDC193F1CF58F1C004FA22F /* AppDelegate.m */,
 				3FDC19411CF58F1C004FA22F /* ViewController.h */,
 				3FDC19421CF58F1C004FA22F /* ViewController.m */,
+				3FDC196E1CF591F3004FA22F /* FirstViewController.h */,
+				3FDC196F1CF591F3004FA22F /* FirstViewController.m */,
 				3FDC19441CF58F1C004FA22F /* Main.storyboard */,
 				3FDC19471CF58F1C004FA22F /* Assets.xcassets */,
 				3FDC19491CF58F1C004FA22F /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				3FDC19431CF58F1C004FA22F /* ViewController.m in Sources */,
 				3FDC19401CF58F1C004FA22F /* AppDelegate.m in Sources */,
 				3FDC193D1CF58F1C004FA22F /* main.m in Sources */,
+				3FDC19701CF591F3004FA22F /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +502,7 @@
 				3FDC19671CF58F1C004FA22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FDC19681CF58F1C004FA22F /* Build configuration list for PBXNativeTarget "UI_zxrTextTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				3FDC196A1CF58F1C004FA22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FDC196B1CF58F1C004FA22F /* Build configuration list for PBXNativeTarget "UI_zxrTextUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				3FDC196D1CF58F1C004FA22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

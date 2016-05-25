@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    int number = 5;
+    int sum = 100;
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
